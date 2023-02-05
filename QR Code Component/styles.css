@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Outfit-regular';
+    src: url(./static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit-light';
+    src: url(./static/Outfit-Light.ttf);
+}
+
+.parent {
+    margin: 50px 350px 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qr-container {
+    width: 200px;
+    height: 430px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.image-container {
+    width: 100%;
+    height: 50%;
+}
+
+.text-container {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    font-family: 'Outfit-regular';
+    max-height: 50%;
+    color: hsl(218, 44%, 22%);
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Outfit-light';
+    font-size: 15px;
+    max-height: 50%;
+    color: hsl(220, 15%, 55%);
+}
+
+
+/*@media (max-width: 375px) {
+    .parent {
+        margin: 20px;
+        width: calc(100% - 40px);
+    }
+    .qr-container {
+        width: calc(100% - 40px);
+        height: auto;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .parent {
+        margin: 50px 350px 100px;
+        width: 500px;
+    }
+    .qr-container {
+        width: 200px;
+        height: 430px;
+    }
+}
+*/
