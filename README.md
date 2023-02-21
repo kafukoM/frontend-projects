@@ -1,1 +1,1 @@
-Repository containing a variety of projects from [www.frontendmentor.io] demonstrating skills in HTML, CSS and client-side Javascript.
+Repository containing a variety of projects from [Frontend Mentor](www.frontendmentor.io) demonstrating skills in HTML, CSS and client-side Javascript.
