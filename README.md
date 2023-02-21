@@ -1,1 +1,2 @@
-Repository containing a variety of projects from [Frontend Mentor](www.frontendmentor.io) demonstrating skills in HTML, CSS and client-side Javascript.
+1. [Huddle Landing Page](https://kafukom.github.io/frontend-projects/Huddle-Space%20Landing%20Page/index.html)
+2. [QR Code Component](https://kafukom.github.io/frontend-projects/QR%20Code%20Component/index.html)
