@@ -5,15 +5,16 @@
 
 .parent-container {
     position: relative;
+    height: 100vh;
 }
 
 .content-container {
     position: absolute;
     background-color: hsl(257, 40%, 49%);
-    top: 15%;
-    left: 5%;
-    width: 1200px;
-    height: 800px;
+    top: 5%;
+    left: 20%;
+    width: 800px;
+    height: 600px;
     opacity: 0.8;
 }
 
@@ -82,9 +83,16 @@
 
 input {
     border-radius: 15px;
-    color: grey;
+    color: purple;
     background-color: white;
     width: 150px;
     height: 35px;
     border: 1px solid black;
+    font-family: 'Hanken Grotesk', sans-serif;
+    border-style: none;
+}
+
+.attribution {
+    position: absolute;
+    left: 30%;
 }
