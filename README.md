@@ -2,6 +2,7 @@
 2. [QR Code Component](https://kafukom.github.io/frontend-projects/QR%20Code%20Component/index.html)
 3. [Results Summary Page](https://kafukom.github.io/frontend-projects/Results%20Summary%20Page/index.html)
 4. [Four Card Feature Section](https://kafukom.github.io/frontend-projects/Four%20Card%20Feature%20Section/index.html)
+5. [Profile Card Component](https://kafukom.github.io/frontend-projects/Profile%20Card%20Component/index.html)
 
 
 
