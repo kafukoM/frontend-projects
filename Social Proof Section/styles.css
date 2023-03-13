@@ -1,0 +1,147 @@
+:root {
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('./font/LeagueSpartan-VariableFont_wght.ttf');
+}
+
+.review p {
+    color: var(--Very-Dark-Magenta);
+    font-weight: 500;
+}
+
+h1 {
+    color: var(--Very-Dark-Magenta);
+    font-weight: 600;
+}
+
+.left-header p {
+    color: var(--Dark-Grayish-Magenta);
+}
+
+body {
+    font-family: 'League Spartan';
+    background: url(./images/bg-pattern-top-desktop.svg) no-repeat, url(./images/bg-pattern-bottom-desktop.svg) no-repeat;
+    background-position: top left, 50vw -30vh;
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    margin: 8% 10% 0 10%;
+}
+
+.header-container {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header {
+    width: 30%;
+}
+
+.right-header {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.review {
+    height: 3rem;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    background-color: var(--Light-Grayish-Magenta);
+}
+
+.star-container {
+    margin-left: 1rem;
+}
+
+.star {
+    margin-right: 0.5rem;
+}
+
+.review-2 {
+    align-self: center;
+}
+
+.review-3 {
+    align-self: flex-end;
+}
+
+.body-container {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 21rem;
+    height: 12rem;
+    background-color: var(--Very-Dark-Magenta);
+    color: white;
+}
+
+span {
+    color: var(--Soft-Pink);
+}
+
+.card-2 {
+    align-self: center;
+}
+
+.card-3 {
+    align-self: flex-end;
+}
+
+.card,
+.review {
+    border-radius: 12px;
+}
+
+.card-content {
+    margin: 25px 20px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-header {
+    width: 50%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body {
+    width: 100%;
+}
+
+.attribution {
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.profile-image {
+    border-radius: 50%;
+    height: 150%
+}
