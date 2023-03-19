@@ -1,0 +1,124 @@
+:root {
+    --Blue: hsl(223, 87%, 63%);
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('./LibreFranklin-VariableFont_wght.ttf');
+}
+
+* {
+    font-family: 'Libre Franklin';
+    font-weight: 100;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20%;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-container {
+    text-align: center;
+}
+
+.email-container {
+    display: flex;
+    width: 120%;
+    gap: 20px;
+    height: 2.5rem;
+}
+
+#mail {
+    width: 70%;
+    margin-left: -7%;
+    border-radius: 20px;
+    font-size: 12px;
+    padding-left: 5%;
+    color: var(--Gray);
+}
+
+#submitBtn {
+    width: 30%;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    background-color: var(--Blue);
+}
+
+h1+p {
+    line-height: 3.5px;
+}
+
+span {
+    font-weight: 700;
+}
+
+
+
+#dashboard {
+    width: 100%;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+i {
+    color: var(--Blue);
+}
+
+i:hover{
+    color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#submitBtn:hover {
+    cursor: pointer;
+  }
+
+.icon-border {
+    border-radius: 50%;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-border:hover {
+    background-color: var(--Blue);
+    cursor: pointer;
+}
+
