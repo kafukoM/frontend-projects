@@ -17,16 +17,17 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     font-family: 'Red Hat Display';
     background-image: url('./pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
 }
 
 .parent-container {
-    margin-top: 7%;
+    margin-top: 5%;
+    margin-left: 35%;
     display: flex;
     flex-direction: column;
     width: 25rem;
@@ -127,6 +128,7 @@ span>a,
 .attribution {
     margin-top: 1.25rem;
     font-size: 11px;
+    margin-left: 39%;
 }
 
 .attribution a {
