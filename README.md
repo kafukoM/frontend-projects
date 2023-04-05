@@ -5,6 +5,7 @@
 5. [Profile Card Component](https://kafukom.github.io/frontend-projects/Profile%20Card%20Component/index.html)
 6. [Social Proof Section](https://kafukom.github.io/frontend-projects/Social%20Proof%20Section/index.html)
 7. [Ping Coming Soon Page](https://kafukom.github.io/frontend-projects/Ping%20Coming%20Soon%20Page/index.html)
+8. [Order Summary Component](https://kafukom.github.io/frontend-projects/Order%20Summary%20Component/index.html)
 
 
 
