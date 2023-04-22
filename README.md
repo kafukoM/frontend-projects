@@ -6,6 +6,6 @@
 6. [Social Proof Section](https://kafukom.github.io/frontend-projects/Social%20Proof%20Section/index.html)
 7. [Ping Coming Soon Page](https://kafukom.github.io/frontend-projects/Ping%20Coming%20Soon%20Page/index.html)
 8. [Order Summary Component](https://kafukom.github.io/frontend-projects/Order%20Summary%20Component/index.html)
-
+9. [Time Tracking Dashboard](https://kafukom.github.io/frontend-projects/Time%20Tracking%20Dashboard/index.html)
 
 
