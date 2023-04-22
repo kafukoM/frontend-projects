@@ -12,7 +12,7 @@ window.onload = () => {
 submit.addEventListener('click', (e) => {
     e.preventDefault();
 
-    if (email.validity.typeMismatch) {
+    if (email.validity.typeMismatch || email.value == '') {
         emailStatus.style.color = 'red';
         email.style.border = '1px solid red';
         emailStatus.textContent = 'Please enter a valid email address';
